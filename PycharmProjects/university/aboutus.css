@@ -1,0 +1,42 @@
+.about-us{
+    color:chartreuse;
+    font-size: 30px;
+    min-height:100vh;
+    width:100%;
+    background-image:url("po.jpg");
+    background-position:center;
+    background-size:cover;
+}
+
+#line1{
+    color:blueviolet;
+    font-style:italic;
+    font-family: cursive;
+    font-sixe:40px;
+    border:solid;
+    border-color: orange;
+    padding:10%;
+
+}
+#line2{
+    color:orchid;
+}
+
+.c4 ul li a{
+    color:white;
+    font-style:italic;
+    font-family: cursive;
+    font-size:25px;
+    
+    
+    padding:10%;
+    
+}
+.c4{
+    min-height:100vh;
+    width:100%;
+    background-image:url("po.jpg");
+
+text-decoration:none;
+font-size:25px;
+}

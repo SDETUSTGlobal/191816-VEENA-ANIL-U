@@ -1,0 +1,24 @@
+
+
+h1,p{
+    
+    font-family : 'Times New roman';
+    font-style:italic;
+    font-size:35px;
+}
+#abc{
+    color:brown;
+    font-family:monospace;
+    font-size:15px;
+}
+#xyz{
+    font-size:48px;
+    color:sienna;
+}
+.cbn,h1{
+    color:red;
+}
+*{
+    background-color: greenyellow;
+    
+}
