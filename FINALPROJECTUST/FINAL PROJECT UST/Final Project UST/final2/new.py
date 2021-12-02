@@ -1,0 +1,21 @@
+from selenium import webdriver
+import time
+driver = webdriver.Chrome("C:/pycharm/chromedriver.exe")
+driver.maximize_window()
+driver.delete_all_cookies()
+driver.get("http://127.0.0.1:5000/")
+time.sleep(2)
+driver.find_element_by_id("name").send_keys("Nick")
+time.sleep(2)
+driver.find_element_by_id("uid").send_keys("53244")
+time.sleep(2)
+driver.find_element_by_id("cname").send_keys("UST")
+time.sleep(2)
+driver.find_element_by_id("cmail").send_keys("ni@gmail.com")
+time.sleep(2)
+driver.find_element_by_id("password").send_keys("9hu78##5$%^")
+time.sleep(2)
+driver.find_element_by_xpath("/html/body/div/div/div[2]/form/div[7]/button").click()
+time.sleep(3)
+driver.close()
+
